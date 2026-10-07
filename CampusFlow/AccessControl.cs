@@ -11,7 +11,7 @@ public class AccessControl
             return section != "Users";
 
         if (role == "Student")
-            return section == "Tasks" || section == "Deadlines";
+            return section == "Tasks" || section == "Deadlines"; // коммит для первого чека и что ещё здесь?
 
         //if (role == "Student")
         //{
