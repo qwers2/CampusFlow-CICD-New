@@ -10,13 +10,13 @@ public class AccessControl
         if (role == "Teacher")
             return section != "Users";
 
-        if (role == "Student")
-            return section == "Tasks" || section == "Deadlines";
-
         //if (role == "Student")
-        //{
-        //    return true; // сделал ошибку 
-        //}
+        //    return section == "Tasks" || section == "Deadlines";
+
+        if (role == "Student")
+        {
+            return true; // сделал ошибку 
+        }
 
         return false; 
     }
