@@ -11,11 +11,11 @@ public class AccessControl
             return section != "Users";
 
         if (role == "Student")
-            return section == "Tasks" || section == "Deadlines";
+            return section == "Tasks" || section == "Deadlines"; /// test for ////
 
         //if (role == "Student")
         //{
-        //    return true; // сделали ошибку 
+        //    return true; // сделал ошибку 
         //}
 
         return false; 
