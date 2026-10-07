@@ -11,7 +11,7 @@ public class AccessControl
             return section != "Users";
 
         if (role == "Student")
-            return section == "Tasks" || section == "Deadlines"; // коментраий для примера
+            return section == "Tasks" || section == "Deadlines"; // коментраий для примера ещё добвим, ибо я пытаюсь сделать коммит..
 
         //if (role == "Student")
         //{
